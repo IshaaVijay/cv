@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<h1>Login</h1>
+</head>
+<body>
+	<form action="http://www.google.com">
+		<label for="First Name">First Name: </label>
+		<input id = "First Name" type="text" name="First Name" placeholder="Firstname" required >
+
+		<label for="Last Name">Last Name: </label>
+		<input id = "Last Name" type="text" name="Last Name" placeholder="Lastname" required > 
+	 <div> 
+			
+			<label for="Male">Male</label>
+			<input id="Male" type="radio" name="Gender"  value="male">
+
+			<label for="Female">Female</label>
+			<input id="Female" type="radio" name="Gender"  value="female">
+
+			<label for="other">other</label>
+			<input id="order" type="radio" name="Gender" value="other">
+	</div>
+	<div>
+			<label for="email">Email:
+			<input type="email" placeholder="Email" name="email" required>
+		    </lable>
+
+			<label>Password:
+			<input type="password" name=
+			"password" pattern=".{5,10}" required title="5 to 10 characters"> 
+			</label>
+	</div>
+	<div>
+		<label>Birthday:
+		    <select name="month">
+		    	<option>Month</option>
+		    	<option>dec</option>
+		    	<option>jan</option>
+		    	<option>feb</option>
+		    </select> 
+		    <select name="day">
+		    	<option>Day</option>
+		    	<option>1</option>
+		    	<option>2</option>
+		    	<option>3</option>
+		    </select>
+		    <select name="year">
+		    	<option>Year</option>
+		    	<option>2001</option>
+		    	<option>2002</option>
+		    	<option>2006</option>
+		    </select>
+		</label>
+	</div>
+	<div>
+		    <label>I agree to the terms and conditions</label>
+		    <input type="checkbox">
+	</div>
+     <!-- <form action="http://www.google.com"> -->
+     	<input type="submit" >
+     </form>
+		 
+</body>
+</html>
